@@ -9,5 +9,6 @@ First use:
 
 1. Start the server with `cd express-server && npm install && npm start`
 2. Start the client with `cd nuxt-client && npm install && npm run dev`
+3. Visit `http://localhost:4000/` in your browser
 
 See the `README.md` in the individual directory's for more details.

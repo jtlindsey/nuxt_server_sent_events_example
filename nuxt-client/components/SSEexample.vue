@@ -57,9 +57,8 @@ export default {
       this.evtSource.onmessage = function (event) {
         console.log('New event....', event)
         const data = isJSON(event.data) || event.data
-        console.log('x', data.eventName)
+
         if (data.eventName) {
-          console.log('ok', this.eventName)
           updateView(data)
         }
       }
